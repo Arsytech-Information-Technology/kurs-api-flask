@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "70c2c46e-106d-4f2a-83ad-d99c72e81a4b",
+		"name": "Endpoint V1 - Arsytech Kurs API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30857122"
+	},
+	"item": [
+		{
+			"name": "Welcome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Kurs",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"currency_from\": \"IDR\",\r\n    \"amount\": 25000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/v1/kurs",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"v1",
+						"kurs"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
