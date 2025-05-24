@@ -7,9 +7,9 @@ Repositori ini dikembangkan dengan bahasa pemrograman Python dan menggunakan fra
 ### 🚀 Cara menjalankan program
 
 > Penting !!
-> Sangat disarankan menggunakan WSL versi 2 sebagai lingungan pengembangan sistem yang baik.
+> Sangat disarankan menggunakan WSL versi 2 sebagai lingkungan pengembangan sistem yang baik.
 
-1. Setelah program ini berhasil di clone, masuk ke folder root program. seharusnya namanya adalah `/kurs-api-flask`.
+1. Setelah program ini berhasil di clone, masuk ke folder root program. seharusnya folder rootnya bernama adalah `/kurs-api-flask`.
 2. Jalankan perintah berikut: `python3 -m venv .venv`.
 3. Kemudian jalankan perintah berikut: `source .venv/bin/activate`.
 4. Kemudian jalankan perintah berikut: `pip install -r requirements.txt`.
@@ -17,4 +17,4 @@ Repositori ini dikembangkan dengan bahasa pemrograman Python dan menggunakan fra
 
 Maka seharusnya program sudah berhasil dijalankan di localhost port 5000.
 
-Silahkan Lakukan uji coba dengan menggunakan POSTMAN. dockumen postman ada di folder `/docs/postman`.
+Silahkan Lakukan uji coba dengan menggunakan POSTMAN. dockumen postman ada di folder `/docs/postman/`.
